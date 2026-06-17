@@ -64,7 +64,7 @@ export default function Hero() {
       >
         <div
           className="flex flex-col justify-center"
-          style={{ minHeight: "100vh", paddingTop: 120, paddingBottom: 80 }}
+          style={{ minHeight: "100vh", paddingTop: 120, paddingBottom: 120, position: "relative" as const }}
         >
           <motion.div
             initial={{ opacity: 0, y: 32 }}
